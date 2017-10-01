@@ -35,21 +35,3 @@ Student.belongsTo(Teacher)
 module.exports = {db, Student, Teacher}
 
 
-// Student.prototype.getLetter = function () {
-// 	return
-// 	let letGrade;
-// 	let intGrade = this.gpa
-// 	if (intGrade >= 3) letGrade = 'A'
-// 	else if (intGrade >= 2) letGrade = 'B'
-// 	return letGrade
-// }
-
-
-// Page.findByTag = function (tag) {
-// 	return this.findAll({
-// 			where: {
-// 					tags: {
-// 							$contains: [tag]
-// 					}
-// 			}
-// 	});
