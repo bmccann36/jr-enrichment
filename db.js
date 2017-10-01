@@ -23,15 +23,6 @@ Student.findPerfect = function(){
 	})
 }
 
-// Page.findByTag = function (tag) {
-// 	return this.findAll({
-// 			where: {
-// 					tags: {
-// 							$contains: [tag]
-// 					}
-// 			}
-// 	});
-
 
 const Teacher = db.define('teacher', {
 	name: Sequelize.STRING,
@@ -52,3 +43,13 @@ module.exports = {db, Student, Teacher}
 // 	else if (intGrade >= 2) letGrade = 'B'
 // 	return letGrade
 // }
+
+
+// Page.findByTag = function (tag) {
+// 	return this.findAll({
+// 			where: {
+// 					tags: {
+// 							$contains: [tag]
+// 					}
+// 			}
+// 	});
